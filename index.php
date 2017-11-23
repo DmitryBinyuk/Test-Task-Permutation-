@@ -14,7 +14,7 @@ class BrutForce{
     {
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, "http://staxi.local/");
+        curl_setopt($ch, CURLOPT_URL, "http://test.local/");
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS,"code=" . $code);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
